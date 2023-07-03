@@ -40,6 +40,7 @@ export default function WeatherSearch() {
   if (loaded) {
     return (
       <div>
+        <h2>{city}</h2>
         {form}
         <ul>
           <li>Temperature: {Math.round(weather.temperature)}°C</li>
